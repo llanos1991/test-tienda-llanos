@@ -107,10 +107,6 @@ export const Pedido = () => {
     return (
         <div>
              <div>
-              <h1 class ="registro" >REGISTRAR PEDIDO DE CLIENTE</h1>
-                {IngresarPedido()}
-             </div>
-             <div>
               <h1 class ="registro">LISTA DE PEDIDOS DE CLIENTES</h1>
              </div>
 
@@ -167,6 +163,10 @@ export const Pedido = () => {
                 }
               </tbody>
             </table>
+            <div>
+              <h1 class ="registro" >REGISTRAR PEDIDO DE CLIENTE</h1>
+                {IngresarPedido()}
+             </div>
         </div>
     );
 }
