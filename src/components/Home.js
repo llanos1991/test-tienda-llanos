@@ -9,10 +9,10 @@ const Timer=() =>{
     useEffect(() => {
         setTimeout(() => {
         setCount((count) => count + 1);
-        }, 60000);
+        }, 1000);
     });
 
-    return <h1 className="header-text"> Oferta de 1 hora en Tienda Llanos! Lleva {count} minutos</h1>;
+    return <h1 className="header-text"> Oferta de 5 minutos en Tienda Llanos! Lleva {count} segundos</h1>;
 }
 
     const Header = () => {
